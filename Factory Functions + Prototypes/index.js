@@ -14,5 +14,5 @@ function criaPessoa(nome, sobrenome) {
     }
 }
 
-constp1 = criaPessoa('Luiz','Otávio')
+const p1 = criaPessoa('Luiz','Otávio')
 console.log(p1)
