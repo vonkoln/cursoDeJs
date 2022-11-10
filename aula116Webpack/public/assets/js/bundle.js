@@ -1,2 +1,2 @@
-console.log("Eiiiiiiiiiiiiiiiii");
+(()=>{"use strict";function e(e,n){for(var t=0;t<n.length;t++){var o=n[t];o.enumerable=o.enumerable||!1,o.configurable=!0,"value"in o&&(o.writable=!0),Object.defineProperty(e,o.key,o)}}function n(n,t,o){return t&&e(n.prototype,t),o&&e(n,o),Object.defineProperty(n,"prototype",{writable:!1}),n}var t=new(n((function e(n,t){!function(e,n){if(!(e instanceof n))throw new TypeError("Cannot call a class as a function")}(this,e),this.nome=n,this.sobrenome=t})))("Bruno","Stefano");console.log(t)})();
 //# sourceMappingURL=bundle.js.map

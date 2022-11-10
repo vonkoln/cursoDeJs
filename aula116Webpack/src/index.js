@@ -1,4 +1,4 @@
-// 1
-// 2
-// 3
-console.log("Eiiiiiiiiiiiiiiiii")
+import Pessoa, {nome, sobrenome} from "./modulo1"
+
+const p1 = new Pessoa(nome, sobrenome)
+console.log(p1)
